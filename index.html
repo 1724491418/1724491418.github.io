@@ -6,20 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        li {
+            list-style: none;
+        }
+        img {
+            border: 0;  /*ie6*/
+            vertical-align: middle;
+        }
         .title {
+            height: 100px;
             margin: auto;
-            background-color: #0f0;
+            background-color: rgb(119, 173, 47);
         }
        .biaoqian {
             color: aqua;
+            text-align: center;
+        }
+        .focus fl {
+            position: absolute;
+        }
+        .focus fl ul  {
+            width: 800px;
+            height: 1000px;
+           
+        }
+        .focus fl ul  li {
             
+            position: relative;
+            float: left;
         }
     </style>
 </head>
 <body>
     <div class="title">
         <h1 class="biaoqian">个人静态网站</h1>
-
+        <div class="focus fl">
+            <!-- 左侧按钮 -->
+            <a href="javascript:;" class="arrow-l">
+                        &lt;
+                     </a>
+            <!-- 右侧按钮 -->
+            <a href="javascript:;" class="arrow-r">  </a>
+            <!-- 核心的滚动区域 -->
+            <ul>
+              <li>
+                <a href="#"><img src="./imges/1.jpg" alt=""></a>
+              </li>
+              <li>
+                <a href="#"><img src="./imges/2.jpg" alt=""></a>
+              </li>
+               <li>
+                <a href="#"><img src="./imges/3.jpg" alt=""></a>
+              </li>
+               <li>
+                <a href="#"><img src="./imges/4.jpg" alt=""></a>
+              </li>
+               <li>
+                <a href="#"><img src="./imges/5.jpg" alt=""></a>
+              </li>
+               <li>
+                <a href="#"><img src="./imges/6.png" alt=""></a>
+              </li>
+               <li>
+                <a href="#"><img src="./imges/7.jpeg" alt=""></a>
+              </li>
+               <li>
+                <a href="#"><img src="./imges/8.jpeg" alt=""></a>
+              </li>
+    
+            </ul> b
+            <!-- 小圆圈 -->
+            <ol class="circle">
+    
+            </ol>
+          </div>
     </div>
     
 </body>
